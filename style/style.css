@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+
+.font-sans-open {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
 .nav-container{
 display: flex;
 justify-content: space-between;
