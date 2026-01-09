@@ -73,7 +73,7 @@ background-image: url("../Image/hero-bg.png");
     max-width: 800px;
 }
 
-.badge {
+.open {
     background: rgba(255, 255, 255, 0.9);
     color: #30B868;
     
@@ -119,3 +119,125 @@ background-image: url("../Image/hero-bg.png");
     justify-content: center;
 }
 
+
+
+.note {
+    padding: 80px 0;
+    background-color: white;
+    text-align: center;
+}
+
+.section-header {
+    margin-bottom: 60px;
+}
+
+.section-header h2 {
+    font-size: 2.2rem;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.section-header p {
+    color:#93a89c
+    
+}
+
+.note-flex{
+display: flex;
+justify-content: space-evenly;
+gap: 24px;
+padding: 0 130px;
+}
+
+.note-card {
+    width: 25%;
+  text-align: center;
+  margin-top: 50px;
+  
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: hwb(180 93% 4%);
+  box-shadow: 5px 5px 3px 5px #ce9191;
+
+}
+
+.image-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    font-size: 1.5rem;
+    
+}
+
+.image-box.red {
+    background-color: #cd3030;
+   
+
+}
+
+
+.solution-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.solution-image {
+    flex: 1;
+}
+
+.solution-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.solution-text {
+    flex: 1;
+}
+
+.label {
+    color: #30B868;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.solution-text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 20px;
+    margin-right: 120px
+
+}
+.text{
+    color: #ce9191;
+    margin-right: 120px
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+
+
+.list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    color: #0fbf5b
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+
+.solution-text ul li i{
+    color: #30B868;
+}
